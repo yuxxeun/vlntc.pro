@@ -1,0 +1,25 @@
+{
+  "name": "@yuxxeun/vlntc.pro",
+  "version": "1.0.0",
+  "description": "a serverless & very simple URL shortener that doesn't try to do too much.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuxxeun/vlntc.pro.git"
+  },
+  "keywords": [],
+  "author": "yuxxeun <itsyuxxeun@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuxxeun/vlntc.pro/issues"
+  },
+  "homepage": "https://github.com/yuxxeun/vlntc.pro#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
