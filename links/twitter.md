@@ -1,3 +1,3 @@
 ---
-target: https://twitter.com/yuxxeun
+target: https://twitter.com/valinatic
 ---
