@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#666">
 
   <title>Mengarahkan anda ke {{ target | url }}...</title>
+  <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1/new.min.css">
 
   <style>
     html {
@@ -24,12 +26,10 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-      Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-      'Segoe UI Emoji', 'Segoe UI Symbol';
+      font-family: -apple-system, BlinkMacSystemFont, Inter, 'Apple Color Emoji';
       font-size: 1.337rem;
-      background-color: #121212;
-      color: #eee;
+      background-color: #000;
+      color: #fff;
     }
 
     div {
@@ -53,7 +53,7 @@
 
 <body>
   <div>
-    <h2>Sedang mengarahkan</h2>
+    <h2>Sedang mengarahkan...</h2>
     <p>Mengarahkan anda ke <strong>{{ target | url }}</strong></p>
     <p>Jika tidak terjadi apapun, <a href="{{ target | url }}">klik tautan ini</a></p>
   </div>
