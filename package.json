@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/yuxxeun/vlntc.pro#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "1.0.2"
   }
 }
